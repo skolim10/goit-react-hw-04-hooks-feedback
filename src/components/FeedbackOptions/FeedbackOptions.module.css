@@ -1,0 +1,27 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgb(153, 152, 152);
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 2rem;
+  min-width: 180px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+  border: 1px solid rgb(22, 213, 226);
+}
+
+.btn:active {
+  border-color: rgb(56, 133, 247);
+  background: rgb(56, 133, 247);
+  /* fill: rgb(56, 133, 247); */
+}

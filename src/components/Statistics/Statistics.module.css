@@ -1,0 +1,21 @@
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.feedbackList {
+  /* display: flex; */
+  /* justify-content: left; */
+  /* flex-direction: column; */
+  list-style: none;
+  margin: 0;
+}
+
+.feedbackListItem {
+  /* display: flex; */
+  /* align-items: left; */
+  font-size: 1.5rem;
+  padding: 0;
+  padding-bottom: 0.4rem;
+}
